@@ -21,7 +21,7 @@ Power_Data$Time <- strptime(Power_Data$Time, '%Y-%m-%d %H:%M:%S')
 png(file = 'plot2.png')
 
 
-## Create required histogram with Time vs Global active power variable without plotting actual points
+## Create required line graph with Time vs Global active power variable without plotting actual points
 with(Power_Data, plot(Time, Global_active_power, type = 'n', xlab = '', ylab = 'Global Active Power (kilowatts)'))
 
 
