@@ -18,7 +18,7 @@ Power_Data$Time <- paste(Power_Data$Date, Power_Data$Time)
 Power_Data$Time <- strptime(Power_Data$Time, '%Y-%m-%d %H:%M:%S')
 
 ## Open png device in R
-png(file = 'plot2.png')
+png(file = 'plot3.png')
 
 
 ## Create required line graph with Time vs sub_metering_1 variable without plotting actual points
